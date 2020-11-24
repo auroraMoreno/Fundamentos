@@ -82,6 +82,12 @@
     <Compile Include="FormConversion.Designer.cs">
       <DependentUpon>FormConversion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms08Char.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms08Char.Designer.cs">
+      <DependentUpon>Forms08Char.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormSumar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms08Char.resx">
+      <DependentUpon>Forms08Char.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormSumar.resx">
       <DependentUpon>FormSumar.cs</DependentUpon>
