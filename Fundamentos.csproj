@@ -70,11 +70,47 @@
     <Compile Include="Form07DateTime.Designer.cs">
       <DependentUpon>Form07DateTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form09ValidarMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form09ValidarMail.Designer.cs">
+      <DependentUpon>Form09ValidarMail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10SumarNumerosString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10SumarNumerosString.Designer.cs">
+      <DependentUpon>Form10SumarNumerosString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11ValidarISBN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11ValidarISBN.Designer.cs">
+      <DependentUpon>Form11ValidarISBN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12StringBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12StringBuilder.Designer.cs">
+      <DependentUpon>Form12StringBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13ColeccionGrafica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13ColeccionGrafica.Designer.cs">
+      <DependentUpon>Form13ColeccionGrafica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14SeleccionMultipleListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14SeleccionMultipleListBox.Designer.cs">
+      <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
     </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
@@ -108,8 +144,26 @@
     <EmbeddedResource Include="Form07DateTime.resx">
       <DependentUpon>Form07DateTime.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form09ValidarMail.resx">
+      <DependentUpon>Form09ValidarMail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10SumarNumerosString.resx">
+      <DependentUpon>Form10SumarNumerosString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11ValidarISBN.resx">
+      <DependentUpon>Form11ValidarISBN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12StringBuilder.resx">
+      <DependentUpon>Form12StringBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13ColeccionGrafica.resx">
+      <DependentUpon>Form13ColeccionGrafica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14SeleccionMultipleListBox.resx">
+      <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>

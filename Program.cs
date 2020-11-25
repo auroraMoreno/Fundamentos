@@ -13,7 +13,7 @@ namespace Fundamentos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Forms08Char());
+            Application.Run(new Form14SeleccionMultipleListBox());
         }
     }
 }
