@@ -42,35 +42,40 @@
             // lblseleccionados
             // 
             this.lblseleccionados.AutoSize = true;
-            this.lblseleccionados.Location = new System.Drawing.Point(34, 392);
+            this.lblseleccionados.Location = new System.Drawing.Point(26, 318);
+            this.lblseleccionados.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblseleccionados.Name = "lblseleccionados";
-            this.lblseleccionados.Size = new System.Drawing.Size(112, 17);
+            this.lblseleccionados.Size = new System.Drawing.Size(85, 13);
             this.lblseleccionados.TabIndex = 19;
             this.lblseleccionados.Text = "lblseleccionados";
             // 
             // lblindices
             // 
             this.lblindices.AutoSize = true;
-            this.lblindices.Location = new System.Drawing.Point(31, 354);
+            this.lblindices.Location = new System.Drawing.Point(23, 288);
+            this.lblindices.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblindices.Name = "lblindices";
-            this.lblindices.Size = new System.Drawing.Size(66, 17);
+            this.lblindices.Size = new System.Drawing.Size(50, 13);
             this.lblindices.TabIndex = 18;
             this.lblindices.Text = "lblindices";
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(470, 112);
+            this.btnEliminar.Location = new System.Drawing.Point(352, 91);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(56, 19);
             this.btnEliminar.TabIndex = 15;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnInsertar
             // 
-            this.btnInsertar.Location = new System.Drawing.Point(245, 112);
+            this.btnInsertar.Location = new System.Drawing.Point(184, 91);
+            this.btnInsertar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnInsertar.Name = "btnInsertar";
-            this.btnInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btnInsertar.Size = new System.Drawing.Size(56, 19);
             this.btnInsertar.TabIndex = 14;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = true;
@@ -78,44 +83,48 @@
             // 
             // txtelemento
             // 
-            this.txtelemento.Location = new System.Drawing.Point(245, 56);
+            this.txtelemento.Location = new System.Drawing.Point(184, 46);
+            this.txtelemento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtelemento.Name = "txtelemento";
-            this.txtelemento.Size = new System.Drawing.Size(246, 22);
+            this.txtelemento.Size = new System.Drawing.Size(186, 20);
             this.txtelemento.TabIndex = 13;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(242, 27);
+            this.label2.Location = new System.Drawing.Point(182, 22);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 17);
+            this.label2.Size = new System.Drawing.Size(51, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Elemento";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(28, 27);
+            this.label1.Location = new System.Drawing.Point(21, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 17);
+            this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Elementos";
             // 
             // lstelementos
             // 
             this.lstelementos.FormattingEnabled = true;
-            this.lstelementos.ItemHeight = 16;
-            this.lstelementos.Location = new System.Drawing.Point(31, 56);
+            this.lstelementos.Location = new System.Drawing.Point(23, 46);
+            this.lstelementos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstelementos.Name = "lstelementos";
             this.lstelementos.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lstelementos.Size = new System.Drawing.Size(208, 276);
+            this.lstelementos.Size = new System.Drawing.Size(157, 225);
             this.lstelementos.TabIndex = 10;
             // 
             // btnSeleccionados
             // 
-            this.btnSeleccionados.Location = new System.Drawing.Point(348, 112);
+            this.btnSeleccionados.Location = new System.Drawing.Point(261, 91);
+            this.btnSeleccionados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSeleccionados.Name = "btnSeleccionados";
-            this.btnSeleccionados.Size = new System.Drawing.Size(94, 23);
+            this.btnSeleccionados.Size = new System.Drawing.Size(70, 19);
             this.btnSeleccionados.TabIndex = 20;
             this.btnSeleccionados.Text = "Seleccionados";
             this.btnSeleccionados.UseVisualStyleBackColor = true;
@@ -123,9 +132,9 @@
             // 
             // Form14SeleccionMultipleListBox
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 495);
+            this.ClientSize = new System.Drawing.Size(455, 402);
             this.Controls.Add(this.btnSeleccionados);
             this.Controls.Add(this.lblseleccionados);
             this.Controls.Add(this.lblindices);
@@ -135,6 +144,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lstelementos);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form14SeleccionMultipleListBox";
             this.Text = "Form14SeleccionMultipleListBox";
             this.ResumeLayout(false);
