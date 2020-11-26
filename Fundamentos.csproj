@@ -130,6 +130,12 @@
     <Compile Include="Form17MetodoReferencia.Designer.cs">
       <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form18MetodosEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18MetodosEvento.Designer.cs">
+      <DependentUpon>Form18MetodosEvento.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form17MetodoReferencia.resx">
       <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18MetodosEvento.resx">
+      <DependentUpon>Form18MetodosEvento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
