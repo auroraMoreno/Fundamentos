@@ -13,7 +13,7 @@ namespace Fundamentos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form18MetodosEvento());
+            Application.Run(new Form22TablaMultiplicar());
         }
     }
 }
