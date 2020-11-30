@@ -305,9 +305,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProyectoClase\ProyectoClase.csproj">
-      <Project>{288c5c7c-00d3-4ccc-9820-9afc9c1795f0}</Project>
-      <Name>ProyectoClase</Name>
+    <ProjectReference Include="ProyectoClases\ProyectoClases.csproj">
+      <Project>{19b10682-bfbf-403b-b5d9-6664b824acb9}</Project>
+      <Name>ProyectoClases</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

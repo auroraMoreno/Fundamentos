@@ -1,4 +1,4 @@
-﻿using ProyectoClase;
+﻿using ProyectoClases;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -23,7 +23,7 @@ namespace Fundamentos
             //toda clase debemos instanciarla
             Persona person = new Persona(); //no podemos hacer esto sin namespace, agregar a este proyecto las refs del otro
             person.Nombre = "Adrian"; //dentro del propio set hace un set
-            person.Edad = -13;
+            person.Edad = 13;
             this.lstDatos.Items.Add("Nombre: " + person.Nombre);
             this.lstDatos.Items.Add("Edad: " + person.Edad); //13:56
         }
