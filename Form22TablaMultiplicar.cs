@@ -13,17 +13,20 @@ namespace Fundamentos
     public partial class Form22TablaMultiplicar : Form
     {
         List<TextBox> txtbox;
-        int mult; 
         public Form22TablaMultiplicar()
         {
             InitializeComponent();
             this.txtbox = new List<TextBox>();
+            //en controls la ultima es la primera* (antes no nos importaba el orden)
             foreach(Control control in this.panel1.Controls) {
                 if(control is TextBox)
                 {
                     this.txtbox.Add((TextBox)control);
                 }
             }
+
+            //parar reordenar: 
+            this.txtbox.Reverse(); //así irá del primero al ultimo 
 
           
         }
@@ -32,15 +35,13 @@ namespace Fundamentos
         {
             int num = int.Parse(this.txtNumero.Text);
 
+            //asi sale de arriba a abajo*
             for(int i=1; i < this.txtbox.Count; i++)
             {
-                mult = num * i;
+                int mult = num * i;
+                this.txtbox[i - 1].Text = mult.ToString();
             }
 
-            foreach(TextBox txt in this.txtbox)
-            {
-                txt.Text = mult.ToString();
-            }
        
         }
     }
