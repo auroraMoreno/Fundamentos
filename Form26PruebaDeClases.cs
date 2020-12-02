@@ -62,7 +62,9 @@ namespace Fundamentos
             Empleado empleado = new Empleado("Emp", "Emp");
             //emp.SalarioMinimo = 5000; //no quiero hacer esto
             Director dire = new Director();
-            this.lstDatos.Items.Add("dire: " + dire.);
+            //this.lstDatos.Items.Add("dire: " + dire.);
+            //this.lstDatos.Items.Add("Vacaciones: " + empleado.GetVacaciones());
+            this.lstDatos.Items.Add("Vacas director: " + dire.GetVacaciones());
         }
     }
 }

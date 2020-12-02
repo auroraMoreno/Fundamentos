@@ -32,8 +32,27 @@ namespace ProyectoClases
         //public int SalarioMinimo { get; set; }
         //internal int SalarioMinimo { get; set; } //asi no lo ve el form pero si las demás clases de este pryecto
         internal int SalarioMinimo { get; set; }
+
+        public int GetSalarioMinimo()
+        {
+            return this.SalarioMinimo;
+        }
+
         #endregion
-        //metodo para poder ver el salario minimo en el formulario 
+
+        #region METODOS
+
+        public virtual int GetVacaciones()
+        {
+            Debug.WriteLine("GetVacaciones() de Empleado");
+            return 22;
+        }
+
+
+
+
+        #endregion
+
 
 
     }

@@ -190,6 +190,18 @@
     <Compile Include="Form27GenerarMesesClases.Designer.cs">
       <DependentUpon>Form27GenerarMesesClases.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form28FicherosPlanos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form28FicherosPlanos.Designer.cs">
+      <DependentUpon>Form28FicherosPlanos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form29FicheroProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form29FicheroProductos.Designer.cs">
+      <DependentUpon>Form29FicheroProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -281,6 +293,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form27GenerarMesesClases.resx">
       <DependentUpon>Form27GenerarMesesClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form28FicherosPlanos.resx">
+      <DependentUpon>Form28FicherosPlanos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form29FicheroProductos.resx">
+      <DependentUpon>Form29FicheroProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
