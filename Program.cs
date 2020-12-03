@@ -13,7 +13,7 @@ namespace Fundamentos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form30SerializarClase());
+            Application.Run(new Form32SerializarCoches());
         }
     }
 }

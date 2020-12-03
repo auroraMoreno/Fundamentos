@@ -40,67 +40,76 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 45);
+            this.label1.Location = new System.Drawing.Point(69, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(65, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Producto";
             // 
             // txtProducto
             // 
-            this.txtProducto.Location = new System.Drawing.Point(55, 73);
+            this.txtProducto.Location = new System.Drawing.Point(73, 90);
+            this.txtProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtProducto.Name = "txtProducto";
-            this.txtProducto.Size = new System.Drawing.Size(100, 20);
+            this.txtProducto.Size = new System.Drawing.Size(132, 22);
             this.txtProducto.TabIndex = 1;
             // 
             // labek2
             // 
             this.labek2.AutoSize = true;
-            this.labek2.Location = new System.Drawing.Point(52, 140);
+            this.labek2.Location = new System.Drawing.Point(69, 172);
+            this.labek2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labek2.Name = "labek2";
-            this.labek2.Size = new System.Drawing.Size(37, 13);
+            this.labek2.Size = new System.Drawing.Size(48, 17);
             this.labek2.TabIndex = 2;
             this.labek2.Text = "Precio";
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(55, 169);
+            this.txtPrecio.Location = new System.Drawing.Point(73, 208);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.Size = new System.Drawing.Size(132, 22);
             this.txtPrecio.TabIndex = 3;
             // 
             // btnLeerProducto
             // 
-            this.btnLeerProducto.Location = new System.Drawing.Point(55, 213);
+            this.btnLeerProducto.Location = new System.Drawing.Point(73, 262);
+            this.btnLeerProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLeerProducto.Name = "btnLeerProducto";
-            this.btnLeerProducto.Size = new System.Drawing.Size(75, 41);
+            this.btnLeerProducto.Size = new System.Drawing.Size(100, 50);
             this.btnLeerProducto.TabIndex = 4;
             this.btnLeerProducto.Text = "Leer Producto";
             this.btnLeerProducto.UseVisualStyleBackColor = true;
+            this.btnLeerProducto.Click += new System.EventHandler(this.btnLeerProducto_Click);
             // 
             // btnGuardarProducto
             // 
-            this.btnGuardarProducto.Location = new System.Drawing.Point(158, 213);
+            this.btnGuardarProducto.Location = new System.Drawing.Point(211, 262);
+            this.btnGuardarProducto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardarProducto.Name = "btnGuardarProducto";
-            this.btnGuardarProducto.Size = new System.Drawing.Size(75, 41);
+            this.btnGuardarProducto.Size = new System.Drawing.Size(100, 50);
             this.btnGuardarProducto.TabIndex = 5;
             this.btnGuardarProducto.Text = "Guardar Producto";
             this.btnGuardarProducto.UseVisualStyleBackColor = true;
+            this.btnGuardarProducto.Click += new System.EventHandler(this.btnGuardarProducto_Click);
             // 
             // lblInfo
             // 
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(55, 268);
+            this.lblInfo.Location = new System.Drawing.Point(73, 330);
+            this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(34, 13);
+            this.lblInfo.Size = new System.Drawing.Size(45, 17);
             this.lblInfo.TabIndex = 6;
             this.lblInfo.Text = "lblinfo";
             // 
             // Form30SerializarClase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(590, 335);
+            this.ClientSize = new System.Drawing.Size(787, 412);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.btnGuardarProducto);
             this.Controls.Add(this.btnLeerProducto);
@@ -108,6 +117,7 @@
             this.Controls.Add(this.labek2);
             this.Controls.Add(this.txtProducto);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form30SerializarClase";
             this.Text = "Form30SerializarClase";
             this.ResumeLayout(false);
