@@ -30,9 +30,12 @@ namespace Fundamentos
             Coche coche = new Coche();
             coche.Marca = this.txtMarca.Text;
             coche.Modelo = this.txtModelo.Text;
-            //byte[] img2 = Convert.ToByte(this.pictureBox1.Image);
-            //coche.Imagen = img2;
-            //byte img = Convert.ToByte(coche.Imagen);
+            //MemoryStream ms = new MemoryStream();
+            String path = this.pictureBox1.ImageLocation;
+            //Image img = Image.FromFile(path);
+            //img.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+            byte[] imgBytes = File.ReadAllBytes(path);
+            coche.Imagen = imgBytes;
             this.coches.Add(coche);
             this.PintarCoches();
             //limpiamos y devovlemos el foco al txt primero
@@ -59,7 +62,8 @@ namespace Fundamentos
             open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
             if(open.ShowDialog() == DialogResult.OK)
             {
-                pictureBox1.Image = new Bitmap(open.FileName);
+                this.pictureBox1.Image = new Bitmap(open.FileName);
+                this.pictureBox1.ImageLocation = open.FileName;
             }
         }
 
@@ -91,6 +95,13 @@ namespace Fundamentos
                 Coche coche = this.coches[indice];
                 this.txtMarca.Text = coche.Marca;
                 this.txtModelo.Text = coche.Modelo;
+                byte[] imgSoure = coche.Imagen;
+                //Bitmap img; 
+                //using(MemoryStream stream = new MemoryStream(imgSoure))
+                //{
+                //    img = new Bitmap(stream);
+                //}
+                this.pictureBox1.Image = Image.FromStream(new MemoryStream(imgSoure));
 
             }
         }
